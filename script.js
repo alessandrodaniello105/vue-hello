@@ -6,7 +6,8 @@ const {createApp} = Vue;
 createApp({
   data(){
     return {
-      greetings: 'Hello World!'
+      greetings: 'Hello World!',
+      imageSrc: 'https://unsplash.it/600/300?image=451'
     }
   }
 }).mount('#app');
